@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nordeste Agora | Jornal Digital Regional</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-progress" id="pageProgress"></div>
+
+  <header class="top-header">
+    <div class="container header-content">
+      <a href="#" class="brand" aria-label="Nordeste Agora">
+        <span class="brand-icon">
+          <span class="sun"></span>
+          <span class="wave wave-one"></span>
+          <span class="wave wave-two"></span>
+        </span>
+
+        <span>
+          <strong>Nordeste Agora</strong>
+          <small>Notícia, cultura e cotidiano regional</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <a href="#noticias">Notícias</a>
+        <a href="#tempo">Tempo</a>
+        <a href="#moedas">Moedas</a>
+        <a href="#cultura">Cultura</a>
+        <a href="#tirinhas">Tirinhas</a>
+      </nav>
+
+      <button class="theme-button" id="themeButton" type="button">
+        🌙 Modo
+      </button>
+    </div>
+  </header>
+
+  <section class="breaking-news">
+    <div class="container breaking-content">
+      <strong>Plantão Regional</strong>
+      <marquee behavior="scroll" direction="left">
+        Oxente! Destaques do dia: cultura, educação, turismo, tecnologia, economia criativa e cotidiano dos estados nordestinos.
+      </marquee>
+    </div>
+  </section>
+
+  <main>
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <article class="hero-card">
+          <span class="tag">Especial Nordeste</span>
+          <h1>Um portal digital com sotaque, cor e identidade regional</h1>
+          <p>
+            Wireframe em alta fidelidade inspirado na estética dos jornais digitais,
+            representando o Nordeste com cultura, linguagem local, clima, economia,
+            turismo, costumes e notícias regionais.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#noticias" class="primary-button">Ver notícias</a>
+            <a href="#tirinhas" class="secondary-button">Ver tirinhas</a>
+          </div>
+        </article>
+
+        <aside class="hero-side-card">
+          <span class="eyebrow">Edição acadêmica</span>
+          <h2>Nordeste em destaque</h2>
+          <p>
+            Design com tons quentes, elementos de cordel, sol, litoral, sertão e
+            referências culturais regionais.
+          </p>
+
+          <div class="mini-stats">
+            <div>
+              <strong>9</strong>
+              <span>Estados</span>
+            </div>
+            <div>
+              <strong>2</strong>
+              <span>APIs</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Responsivo</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="container api-area" id="tempo">
+      <article class="api-card weather-card">
+        <div class="section-heading compact">
+          <span class="tag">API de clima</span>
+          <h2>Previsão do tempo</h2>
+        </div>
+
+        <label for="citySelect">Escolha uma capital nordestina:</label>
+        <select id="citySelect">
+          <option value="recife">Recife - PE</option>
+          <option value="salvador">Salvador - BA</option>
+          <option value="fortaleza">Fortaleza - CE</option>
+          <option value="natal">Natal - RN</option>
+          <option value="joaoPessoa">João Pessoa - PB</option>
+          <option value="maceio">Maceió - AL</option>
+          <option value="aracaju">Aracaju - SE</option>
+          <option value="saoLuis">São Luís - MA</option>
+          <option value="teresina">Teresina - PI</option>
+        </select>
+
+        <div class="weather-result" id="weatherResult">
+          <p>Carregando previsão...</p>
+        </div>
+      </article>
+
+      <article class="api-card currency-card" id="moedas">
+        <div class="section-heading compact">
+          <span class="tag">API financeira</span>
+          <h2>Cotação de moedas</h2>
+        </div>
+
+        <div class="currency-grid" id="currencyGrid">
+          <p>Carregando cotações...</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="container content-layout" id="noticias">
+      <div>
+        <div class="section-heading">
+          <span class="tag">Editorias</span>
+          <h2>Notícias regionais</h2>
+          <p>
+            Conteúdo fictício para wireframe. A estrutura já está pronta para receber
+            notícias reais depois.
+          </p>
+        </div>
+
+        <div class="tools-bar">
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Buscar por cultura, turismo, economia..."
+          />
+
+          <select id="stateFilter">
+            <option value="todos">Todos os estados</option>
+            <option value="BA">Bahia</option>
+            <option value="PE">Pernambuco</option>
+            <option value="CE">Ceará</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="PB">Paraíba</option>
+            <option value="AL">Alagoas</option>
+            <option value="SE">Sergipe</option>
+            <option value="MA">Maranhão</option>
+            <option value="PI">Piauí</option>
+          </select>
+        </div>
+
+        <div class="news-grid" id="newsGrid"></div>
+      </div>
+
+      <aside class="sidebar">
+        <article class="sidebar-card">
+          <h3>Sites pesquisados</h3>
+          <p>
+            Área para mostrar referências regionais usadas na pesquisa do grupo.
+          </p>
+
+          <ul class="source-list">
+            <li>Diário do Nordeste</li>
+            <li>NE10</li>
+            <li>Jornal Correio</li>
+            <li>Tribuna do Norte</li>
+            <li>G1 Nordeste</li>
+          </ul>
+        </article>
+
+        <article class="sidebar-card culture-note">
+          <h3>Gírias e expressões</h3>
+
+          <div class="slang-item">
+            <strong>Oxente</strong>
+            <span>Expressão de surpresa ou espanto.</span>
+          </div>
+
+          <div class="slang-item">
+            <strong>Arretado</strong>
+            <span>Algo muito bom, forte ou impressionante.</span>
+          </div>
+
+          <div class="slang-item">
+            <strong>Mainha</strong>
+            <span>Forma carinhosa de chamar a mãe.</span>
+          </div>
+
+          <div class="slang-item">
+            <strong>Vixe</strong>
+            <span>Expressão usada para surpresa, preocupação ou espanto.</span>
+          </div>
+        </article>
+      </aside>
+    </section>
+
+    <section class="culture-section" id="cultura">
+      <div class="container">
+        <div class="section-heading center">
+          <span class="tag">Cultura local</span>
+          <h2>Como o Nordeste aparece no site?</h2>
+          <p>
+            O visual combina tons solares, referências ao cordel, litoral,
+            festas populares, culinária e diversidade cultural.
+          </p>
+        </div>
+
+        <div class="culture-grid">
+          <article>
+            <span>🎶</span>
+            <h3>Música e festas</h3>
+            <p>
+              Espaço para destacar forró, frevo, maracatu, axé, festas juninas e
+              manifestações populares.
+            </p>
+          </article>
+
+          <article>
+            <span>🌵</span>
+            <h3>Sertão e identidade</h3>
+            <p>
+              Cores terrosas e elementos gráficos lembram o sertão, a resistência
+              e a criatividade regional.
+            </p>
+          </article>
+
+          <article>
+            <span>🌊</span>
+            <h3>Litoral e turismo</h3>
+            <p>
+              Azul e verde aparecem como referência às praias, rios, mangues e
+              paisagens naturais.
+            </p>
+          </article>
+
+          <article>
+            <span>🍽️</span>
+            <h3>Culinária</h3>
+            <p>
+              Editorias podem abordar acarajé, cuscuz, tapioca, baião de dois,
+              carne de sol e outros pratos.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="container comics-section" id="tirinhas">
+      <div class="section-heading">
+        <span class="tag">Conteúdo original</span>
+        <h2>Tirinhas sobre cultura local</h2>
+        <p>
+          Tirinhas autorais criadas para o projeto, usando humor leve e expressões regionais.
+        </p>
+      </div>
+
+      <div class="comic-grid">
+        <article class="comic-card">
+          <h3>Tirinha 01 — O calor arretado</h3>
+
+          <div class="comic-strip">
+            <div class="comic-panel">
+              <div class="character">🧑🏽</div>
+              <p>Oxente, hoje o sol acordou foi animado!</p>
+            </div>
+
+            <div class="comic-panel">
+              <div class="character">👩🏽</div>
+              <p>Animado? Ele veio foi apresentar trabalho!</p>
+            </div>
+
+            <div class="comic-panel">
+              <div class="character">🌞</div>
+              <p>Previsão: calor, cuscuz e água gelada!</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="comic-card">
+          <h3>Tirinha 02 — Mainha sabe tudo</h3>
+
+          <div class="comic-strip">
+            <div class="comic-panel">
+              <div class="character">🧒🏽</div>
+              <p>Mainha, onde fica o carregador?</p>
+            </div>
+
+            <div class="comic-panel">
+              <div class="character">👩🏽</div>
+              <p>Se eu for aí e achar...</p>
+            </div>
+
+            <div class="comic-panel">
+              <div class="character">🔌</div>
+              <p>Estava do lado dele o tempo todo. Vixe!</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Nordeste Agora</strong>
+        <p>
+          Projeto acadêmico de jornal digital com identidade regional nordestina.
+        </p>
+      </div>
+
+      <div>
+        <strong>Editorias</strong>
+        <a href="#noticias">Notícias</a>
+        <a href="#tempo">Tempo</a>
+        <a href="#moedas">Moedas</a>
+        <a href="#tirinhas">Tirinhas</a>
+      </div>
+
+      <div>
+        <strong>Diferenciais</strong>
+        <span>APIs em tempo real</span>
+        <span>Filtro por estado</span>
+        <span>Tirinhas originais</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Voltar ao topo">
+    ↑
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
