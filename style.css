@@ -1,6 +1,5 @@
 /* =========================================================
    VARIÁVEIS GERAIS DO SITE
-   Aqui ficam as cores, sombras, bordas e tamanhos padrão
 ========================================================= */
 
 :root {
@@ -18,6 +17,12 @@
   --brown: #8b4513;
   --red: #d62828;
 
+  /* Cores fixas para áreas escuras */
+  --dark-area: #160f0a;
+  --dark-area-soft: #24170f;
+  --dark-text: #fff8ec;
+  --dark-muted: #e7cdb0;
+
   --border: rgba(37, 21, 11, 0.12);
   --shadow: 0 18px 45px rgba(83, 44, 16, 0.16);
 
@@ -31,7 +36,6 @@
 
 /* =========================================================
    MODO ESCURO
-   Cores aplicadas quando o body recebe a classe .dark
 ========================================================= */
 
 body.dark {
@@ -40,7 +44,19 @@ body.dark {
   --card: #21160f;
   --text: #fff6e8;
   --muted: #d7bfa6;
-  --border: rgba(255, 246, 232, 0.14);
+
+  --orange: #ff9f2e;
+  --orange-dark: #ff8a1c;
+  --yellow: #ffd166;
+  --blue: #1aa7ec;
+  --green: #4ecdc4;
+
+  --dark-area: #0f0a07;
+  --dark-area-soft: #1a100b;
+  --dark-text: #fff8ec;
+  --dark-muted: #e7cdb0;
+
+  --border: rgba(255, 246, 232, 0.16);
   --shadow: 0 18px 45px rgba(0, 0, 0, 0.35);
 }
 
@@ -114,7 +130,7 @@ select {
 }
 
 body.dark .top-header {
-  background: rgba(18, 13, 9, 0.86);
+  background: rgba(15, 10, 7, 0.94);
 }
 
 .header-content {
@@ -135,6 +151,7 @@ body.dark .top-header {
   display: block;
   font-size: 1.25rem;
   letter-spacing: -0.03em;
+  color: var(--text);
 }
 
 .brand small {
@@ -211,6 +228,15 @@ body.dark .top-header {
   color: var(--orange-dark);
 }
 
+body.dark .main-nav a {
+  color: var(--muted);
+}
+
+body.dark .main-nav a:hover {
+  background: rgba(255, 159, 46, 0.14);
+  color: var(--orange);
+}
+
 .theme-button,
 .menu-toggle {
   border: 1px solid var(--border);
@@ -220,6 +246,13 @@ body.dark .top-header {
   border-radius: 999px;
   cursor: pointer;
   font-weight: 700;
+}
+
+body.dark .theme-button,
+body.dark .menu-toggle {
+  background: var(--card);
+  color: var(--text);
+  border-color: var(--border);
 }
 
 .menu-toggle {
@@ -232,8 +265,8 @@ body.dark .top-header {
 ========================================================= */
 
 .breaking-news {
-  background: var(--text);
-  color: #fff8ec;
+  background: var(--dark-area);
+  color: var(--dark-text);
 }
 
 .breaking-content {
@@ -248,11 +281,26 @@ body.dark .top-header {
   color: var(--yellow);
 }
 
+.breaking-content marquee {
+  color: var(--dark-text);
+}
+
+body.dark .breaking-news {
+  background: var(--dark-area);
+  color: var(--dark-text);
+}
+
+body.dark .breaking-content strong {
+  color: var(--yellow);
+}
+
+body.dark .breaking-content marquee {
+  color: var(--dark-text);
+}
+
 
 /* =========================================================
    SEÇÃO PRINCIPAL / HERO
-   Ajustado para ocupar 100% da largura.
-   O card "Edição acadêmica" foi removido do layout.
 ========================================================= */
 
 .hero-section {
@@ -334,28 +382,50 @@ body.dark .news-card {
   margin-top: 28px;
 }
 
+
+/* =========================================================
+   BOTÕES DO HERO
+========================================================= */
+
 .primary-button,
 .secondary-button {
   display: inline-flex;
   padding: 13px 18px;
   border-radius: 999px;
   font-weight: 800;
+  transition: 0.2s ease;
 }
 
 .primary-button {
-  background: var(--text);
+  background: var(--dark-area);
+  color: var(--dark-text);
+  border: 1px solid rgba(255, 248, 236, 0.14);
+}
+
+.primary-button:hover {
+  background: var(--orange-dark);
   color: #fff8ec;
 }
 
 .secondary-button {
   background: rgba(255, 255, 255, 0.48);
+  color: var(--text);
   border: 1px solid var(--border);
+}
+
+.secondary-button:hover {
+  background: rgba(242, 140, 40, 0.18);
+}
+
+body.dark .secondary-button {
+  background: rgba(255, 248, 236, 0.08);
+  color: var(--text);
+  border-color: var(--border);
 }
 
 
 /* =========================================================
    ÁREA DAS APIS
-   Previsão do tempo e cotação de moedas
 ========================================================= */
 
 .api-area {
@@ -419,6 +489,14 @@ body.dark .news-card {
   border-radius: 15px;
   padding: 14px;
   outline: none;
+}
+
+body.dark .api-card select,
+body.dark .tools-bar input,
+body.dark .tools-bar select {
+  background: var(--card);
+  color: var(--text);
+  border-color: var(--border);
 }
 
 
@@ -511,8 +589,6 @@ body.dark .currency-item {
 
 /* =========================================================
    ÁREA DE NOTÍCIAS
-   Ajustada para ocupar a largura inteira.
-   A sidebar foi removida do layout.
 ========================================================= */
 
 .content-layout {
@@ -595,6 +671,10 @@ body.dark .currency-item {
   color: var(--orange-dark);
 }
 
+body.dark .read-more {
+  color: var(--orange);
+}
+
 
 /* =========================================================
    SEÇÃO DE CULTURA LOCAL
@@ -642,6 +722,7 @@ body.dark .currency-item {
 /* =========================================================
    SEÇÃO DE TIRINHAS
 ========================================================= */
+
 .comics-section {
   padding: 70px 0;
 }
@@ -715,9 +796,10 @@ body.dark .comic-image-card {
 ========================================================= */
 
 .site-footer {
-  background: var(--text);
-  color: #fff8ec;
+  background: var(--dark-area);
+  color: var(--dark-text);
   padding: 40px 0;
+  border-top: 1px solid rgba(255, 248, 236, 0.12);
 }
 
 .footer-grid {
@@ -726,13 +808,36 @@ body.dark .comic-image-card {
   gap: 24px;
 }
 
+.footer-grid strong {
+  color: var(--dark-text);
+}
+
 .footer-grid p,
 .footer-grid a,
 .footer-grid span {
   display: block;
   margin-top: 8px;
-  color: rgba(255, 248, 236, 0.76);
+  color: var(--dark-muted);
   line-height: 1.6;
+}
+
+.footer-grid a:hover {
+  color: var(--yellow);
+}
+
+body.dark .site-footer {
+  background: var(--dark-area);
+  color: var(--dark-text);
+}
+
+body.dark .footer-grid strong {
+  color: var(--dark-text);
+}
+
+body.dark .footer-grid p,
+body.dark .footer-grid a,
+body.dark .footer-grid span {
+  color: var(--dark-muted);
 }
 
 
@@ -813,7 +918,6 @@ body.dark .comic-image-card {
   }
 
   .api-area,
-  .comic-grid,
   .footer-grid {
     grid-template-columns: 1fr;
   }
@@ -846,7 +950,7 @@ body.dark .comic-image-card {
   .currency-grid,
   .weather-details,
   .culture-grid,
-  .comic-strip,
+  .comic-gallery,
   .news-grid {
     grid-template-columns: 1fr;
   }
@@ -857,5 +961,9 @@ body.dark .comic-image-card {
 
   .hero-card h1 {
     font-size: clamp(2rem, 13vw, 3.4rem);
+  }
+
+  .comic-image-card img {
+    height: auto;
   }
 }
