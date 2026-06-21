@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Notícia completa | Nordestino</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page-progress" id="pageProgress"></div>
+
+  <header class="top-header">
+    <div class="container header-content">
+      <a href="index.html" class="brand">
+        <span class="brand-icon">
+          <span class="sun"></span>
+          <span class="wave wave-one"></span>
+          <span class="wave wave-two"></span>
+        </span>
+
+        <span>
+          <strong>Nordestino</strong>
+          <small>Notícia, cultura e cotidiano regional</small>
+        </span>
+      </a>
+
+      <nav class="main-nav">
+        <a href="index.html#noticias">Notícias</a>
+        <a href="index.html#tempo">Tempo</a>
+        <a href="index.html#moedas">Moedas</a>
+        <a href="index.html#cultura">Cultura</a>
+        <a href="index.html#tirinhas">Tirinhas</a>
+      </nav>
+
+      <button class="theme-button" id="themeButton" type="button">
+        🌙 Modo
+      </button>
+    </div>
+  </header>
+
+  <main class="single-news-page">
+    <section class="container">
+      <a href="index.html#noticias" class="back-link">← Voltar para notícias</a>
+
+      <article class="single-news-card" id="singleNews">
+        <p>Carregando notícia...</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Nordestino</strong>
+        <p>
+          Projeto acadêmico de jornal digital com identidade regional nordestina.
+        </p>
+      </div>
+
+      <div>
+        <strong>Editorias</strong>
+        <a href="index.html#noticias">Notícias</a>
+        <a href="index.html#tempo">Tempo</a>
+        <a href="index.html#moedas">Moedas</a>
+        <a href="index.html#tirinhas">Tirinhas</a>
+      </div>
+
+      <div>
+        <strong>Diferenciais</strong>
+        <span>APIs em tempo real</span>
+        <span>Filtro por estado</span>
+        <span>Tirinhas digitais</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Voltar ao topo">
+    ↑
+  </button>
+
+  <script src="noticia.js"></script>
+</body>
+</html>
