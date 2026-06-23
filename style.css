@@ -680,6 +680,87 @@ body.dark .read-more {
   color: var(--orange);
 }
 
+/* =========================================================
+   SIDEBAR DAS NOTÍCIAS
+   Sites pesquisados e gírias regionais
+========================================================= */
+
+.sidebar {
+  position: sticky;
+  top: 110px;
+  display: grid;
+  gap: 20px;
+}
+
+.sidebar-card {
+  padding: 26px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+body.dark .sidebar-card {
+  background: rgba(33, 22, 15, 0.76);
+}
+
+.sidebar-card h3 {
+  font-size: 1.35rem;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+
+.sidebar-card p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.source-list {
+  list-style: none;
+  display: grid;
+  gap: 12px;
+}
+
+.source-list li {
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: rgba(242, 140, 40, 0.16);
+  border: 1px solid var(--border);
+  font-weight: 900;
+  color: var(--text);
+}
+
+body.dark .source-list li {
+  background: rgba(242, 140, 40, 0.18);
+}
+
+.slang-item {
+  display: grid;
+  gap: 5px;
+  padding: 15px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.slang-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.slang-item strong {
+  color: var(--orange-dark);
+  font-size: 1rem;
+}
+
+body.dark .slang-item strong {
+  color: var(--orange);
+}
+
+.slang-item span {
+  color: var(--muted);
+  line-height: 1.55;
+}
 
 /* =========================================================
    SEÇÃO DE CULTURA LOCAL

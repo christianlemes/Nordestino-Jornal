@@ -316,7 +316,7 @@ function toggleTheme() {
   const isDark = document.body.classList.contains("dark");
   localStorage.setItem("theme", isDark ? "dark" : "light");
 
-  themeButton.textContent = isDark ? "☀️ Modo" : "🌙 Modo";
+  themeButton.textContent = isDark ? "Modo claro" : "Modo escuro";
 }
 
 function loadSavedTheme() {
@@ -324,7 +324,7 @@ function loadSavedTheme() {
 
   if (savedTheme === "dark") {
     document.body.classList.add("dark");
-    themeButton.textContent = "☀️ Modo";
+    themeButton.textContent = "Modo claro";
   }
 }
 
