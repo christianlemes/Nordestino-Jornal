@@ -6,13 +6,13 @@
 const news = [
   {
     id: 1,
-    title: "Festival cultural movimenta centro histórico com música, dança e gastronomia",
+    title: "Incêndio atinge casarão abandonado no centro de Salvador",
     state: "BA",
-    category: "Cultura",
-    text: "A programação valoriza artistas locais e tradições populares.",
-    time: "Há 12 min",
+    category: "Regional",
+    text: "Imóvel fica localizado na Ladeira dos Barris, no bairro dos Barris. Quinze bombeiros militares foram escalados para combater chamas",
+    time: "Há 2 hrs",
     author: "Redação Nordestino",
-    summary: "Evento reúne música, dança, gastronomia e manifestações culturais no centro histórico.",
+    summary: "Imóvel fica localizado na Ladeira dos Barris, no bairro dos Barris. Quinze bombeiros militares foram escalados para combater chamas.",
     content: `
       <p>
         O centro histórico recebeu uma programação especial dedicada à cultura nordestina,
@@ -20,157 +20,93 @@ const news = [
         artistas locais e fortaleceu a valorização das tradições regionais.
       </p>
 
-      <p>
-        Entre as atrações, o público pôde acompanhar apresentações musicais, rodas de dança,
-        exposições de artesanato e barracas com comidas típicas. A proposta foi aproximar
-        moradores e visitantes da identidade cultural da região.
-      </p>
-
-      <p>
-        Para os organizadores, eventos como esse ajudam a preservar a memória local,
-        movimentam a economia criativa e incentivam novas gerações a conhecerem melhor
-        a história do Nordeste.
-      </p>
     `
   },
   {
     id: 2,
-    title: "Projeto de tecnologia aproxima jovens da inovação no agreste",
+    title: "Feriado de São João: saiba o que abre e o que fecha no Grande Recife",
     state: "PE",
-    category: "Tecnologia",
-    text: "Oficinas e mentorias estimulam soluções para problemas locais.",
+    category: "Diário",
+    text: "Governo de Pernambuco e prefeitura do Recife decretaram ponto facultativo na segunda (22) e terça-feira (23). Já o feriado de São João cai na quarta-feira (24) e afeta funcionamento de alguns serviços.",
     time: "Há 28 min",
     author: "Redação Nordestino",
-    summary: "Iniciativa incentiva jovens a criarem soluções digitais para desafios da própria comunidade.",
+    summary: "Governo de Pernambuco e prefeitura do Recife decretaram ponto facultativo",
     content: `
       <p>
-        Um projeto educacional no agreste pernambucano tem incentivado jovens a desenvolverem
-        soluções tecnológicas para desafios da própria comunidade. A iniciativa oferece oficinas,
-        mentorias e atividades práticas.
-      </p>
-
-      <p>
-        Os participantes aprendem conceitos de programação, design digital, comunicação e
-        empreendedorismo. A ideia é mostrar que a tecnologia também pode nascer de problemas
-        simples do cotidiano.
-      </p>
-
-      <p>
-        Além de ampliar o acesso à inovação, o projeto contribui para a formação profissional
-        dos estudantes e fortalece o protagonismo juvenil na região.
+       No Grande Recife, o feriado de São João muda os horários de funcionamento do comércio, dos shoppings e de alguns serviços públicos. O governo de Pernambuco e a prefeitura do Recife decretaram ponto facultativo na segunda-feira (22), antevéspera do feriado celebrado na quarta-feira (24), respectivamente.
+       Além disso, tanto o estado quanto a capital transferiram o ponto facultativo do feriado de Corpus Christi, comemorado no dia 4 de junho, para a véspera do São João, na terça-feira (23).
       </p>
     `
   },
   {
     id: 3,
-    title: "Praias recebem ações de preservação ambiental durante alta temporada",
+    title: "Pamonha na palha do milho: aprenda receita tradicional da festa de São João",
     state: "CE",
-    category: "Meio ambiente",
-    text: "Iniciativa reforça cuidados com turismo sustentável.",
-    time: "Há 43 min",
+    category: "Culinária",
+    text: "Uma receita simples, com ingredientes da roça e muito carinho no preparo, ensinada pela 'Dona Ana' no programa Nordeste Rural.",
+    time: "Ontem",
     author: "Redação Nordestino",
-    summary: "Ações ambientais orientam turistas e moradores sobre preservação das praias.",
+    summary: "Uma receita simples, com ingredientes da roça e muito carinho no preparo",
     content: `
       <p>
-        Durante a alta temporada, praias do litoral nordestino receberam ações de conscientização
-        ambiental voltadas para turistas, comerciantes e moradores. A iniciativa destacou a
-        importância do descarte correto de resíduos.
-      </p>
-
-      <p>
-        Equipes distribuíram materiais informativos, orientaram visitantes e promoveram mutirões
-        de limpeza. O objetivo é reduzir impactos ambientais e incentivar práticas de turismo
-        sustentável.
-      </p>
-
-      <p>
-        A preservação das praias é essencial para proteger a biodiversidade, manter a beleza
-        natural da região e garantir que o turismo continue gerando renda de forma responsável.
+        Toda festa de São João tem que ter comidas típicas. O programa Nordeste Rural deste domingo (21) trouxe uma das receitas mais tradicionais dessa época: a pamonha na palha do milho.
+        Uma receita simples, com ingredientes da roça e muito carinho no preparo, vindo do Crato, no Cariri cearense.
+        Quem ensinou a escolher o milho e a preparar a receita foi a 'Dona Ana', mãe de Biana Alencar, apresentadora do Nordeste Rural.
       </p>
     `
   },
   {
     id: 4,
-    title: "Feira de artesanato destaca renda de bilro, cerâmica e literatura de cordel",
+    title: "Mãe, padrasto e tio são presos em flagrante após criança de 8 anos morrer com tiro em casa em Natal",
     state: "RN",
-    category: "Economia criativa",
-    text: "Expositores mostram a força da produção artesanal regional.",
+    category: "Criminal",
+    text: "Caso aconteceu no Guarapes no sábado (20), e família disse que disparo foi acidental. Segundo polícia, arma era de uso restrito e há indícios de alteração da cena do crime.",
     time: "Há 1 h",
     author: "Redação Nordestino",
-    summary: "Feira valoriza artesanato, tradição popular e geração de renda local.",
+    summary: "Mãe, padrasto e tio são presos em flagrante",
     content: `
       <p>
-        Uma feira de artesanato reuniu produtores locais para apresentar trabalhos em renda de
-        bilro, cerâmica, madeira, tecido e literatura de cordel. O evento destacou a importância
-        da economia criativa no Nordeste.
-      </p>
-
-      <p>
-        Além da venda de produtos, a programação contou com demonstrações ao vivo, conversas com
-        artesãos e apresentações culturais. O público pôde conhecer de perto técnicas passadas
-        de geração em geração.
-      </p>
-
-      <p>
-        O artesanato representa memória, identidade e fonte de renda para muitas famílias,
-        fortalecendo a cultura local e valorizando o trabalho manual.
+       A mãe, o padrasto e um tio da criança de 8 anos que morreu com um tiro dentro de casa no sábado (20) em Natal foram presos em flagrante, segundo a Polícia Civil. O caso aconteceu no bairro Guarapes, na Zona Oeste da cidade.
+      Segundo a família, o disparo teria sido acidental e feito por um irmão de 11 anos enquanto não havia ninguém em casa. A Polícia Civil investiga o caso. O padrasto admitiu que comprou a arma - que é de calibre restrito - de forma irregular em Mossoró, informou a Polícia Militar.
       </p>
     `
   },
   {
     id: 5,
-    title: "Escolas desenvolvem atividades sobre memória, sotaque e identidade local",
+    title: "São João na Paraíba: confira programação das festas nas principais cidades",
     state: "PB",
-    category: "Educação",
-    text: "Projeto incentiva estudantes a pesquisarem a história da comunidade.",
+    category: "Cultura",
+    text: "Nesta segunda (22) e terça (23), as festas concentram algumas das principais atrações.",
     time: "Há 2 h",
     author: "Redação Nordestino",
-    summary: "Atividades escolares valorizam sotaque, memória, costumes e histórias familiares.",
+    summary: "Nesta segunda (22) e terça (23), as festas concentram algumas das principais atrações.",
     content: `
       <p>
-        Escolas da região desenvolveram atividades sobre memória, sotaque, costumes e identidade
-        local. Os estudantes foram incentivados a entrevistar familiares, pesquisar histórias
-        antigas e registrar expressões populares.
+       As festas públicas de São João seguem em andamento na Paraíba e concentram,
+      nesta segunda-feira (22) e terça-feira (23),
+      parte da programação mais aguardada do calendário junino.
+      Os eventos acontecem João Pessoa, Bananeiras, Campina Grande,
+      além de outras regiões do estado e reúnem shows musicais e apresentações culturais com acesso gratuito ao público.
       </p>
 
-      <p>
-        A proposta aproximou os alunos da cultura da própria comunidade, mostrando que a história
-        regional também está presente nas falas, nas festas, nas receitas e nas lembranças de cada
-        família.
-      </p>
-
-      <p>
-        Segundo os educadores, trabalhar a identidade cultural em sala de aula ajuda os jovens a
-        reconhecerem o valor do lugar onde vivem.
-      </p>
     `
   },
   {
     id: 6,
-    title: "Roteiro turístico valoriza culinária, praias e manifestações populares",
+    title: "Cuscuzeira gigante distribui cuscuz de graça no São João Massayó",
     state: "AL",
-    category: "Turismo",
-    text: "A proposta integra cultura, lazer e geração de renda.",
+    category: "Culinária",
+    text: "Estrutura de 4,2 metros recebe participantes de corrida inédita no bairro do Jaraguá; inscrição é feita com doação de 1 kg de alimento.",
     time: "Há 3 h",
     author: "Redação Nordestino",
-    summary: "Novo roteiro une turismo, cultura, gastronomia e valorização dos pequenos negócios.",
+    summary: "Estrutura de 4,2 metros recebe participantes de corrida inédita no bairro do Jaraguá.",
     content: `
       <p>
-        Um novo roteiro turístico foi criado para valorizar a culinária, as praias, os espaços
-        históricos e as manifestações populares da região. A proposta busca oferecer uma experiência
-        mais completa aos visitantes.
+      Uma cuscuzeira de 4,2 metros prepara e distribui cuscuz de graça para o público no dia 28 de junho,
+      durante a programação do São João Massayó 2026.
+      A ação ocorre no bairro do Jaraguá, logo após a 1ª edição da "Carrêra da Boba – Da Fogueira ao Cuscuz".
       </p>
 
-      <p>
-        O percurso inclui pontos de interesse cultural, restaurantes com pratos típicos, feiras de
-        artesanato e apresentações de artistas locais. A iniciativa também pretende fortalecer
-        pequenos negócios.
-      </p>
-
-      <p>
-        O turismo regional é uma forma de movimentar a economia e divulgar a diversidade cultural
-        do Nordeste para outros públicos.
-      </p>
     `
   },
   {
@@ -188,16 +124,6 @@ const news = [
         comidas típicas, decoração com bandeirinhas e apresentações musicais.
       </p>
 
-      <p>
-        O evento movimentou o comércio local e reuniu famílias em uma celebração marcada por
-        forró, brincadeiras e pratos tradicionais, como canjica, pamonha, bolo de milho e milho
-        assado.
-      </p>
-
-      <p>
-        As festas juninas são uma das expressões culturais mais fortes do Nordeste e continuam
-        sendo importantes para a preservação das tradições populares.
-      </p>
     `
   },
   {
@@ -216,15 +142,6 @@ const news = [
         relatos de artistas populares.
       </p>
 
-      <p>
-        O objetivo é apresentar a diversidade cultural da região, destacando expressões como
-        forró, bumba meu boi, cordel, maracatu, frevo e outras manifestações tradicionais.
-      </p>
-
-      <p>
-        A exposição reforça a importância de preservar a cultura popular e reconhecer sua presença
-        na formação da identidade brasileira.
-      </p>
     `
   },
   {

@@ -1,171 +1,197 @@
 const newsDetails = [
   {
     id: 1,
-    title: "Festival cultural movimenta centro histórico com música, dança e gastronomia",
+    title: "Incêndio atinge casarão abandonado no centro de Salvador",
     state: "BA",
-    category: "Cultura",
-    time: "Há 12 min",
+    category: "Região",
+    time: "Há 2 hrs",
     author: "Redação Nordestino",
     imageLabel: "BA",
-    summary: "A programação valoriza artistas locais e tradições populares.",
+    summary: "Imóvel fica localizado na Ladeira dos Barris, no bairro dos Barris. Quinze bombeiros militares foram escalados para combater chamas.",
     content: `
       <p>
-        O centro histórico recebeu uma programação especial dedicada à cultura nordestina,
-        reunindo música, dança, gastronomia e manifestações populares. O evento destacou
-        artistas locais e fortaleceu a valorização das tradições regionais.
-      </p>
-
-      <p>
-        Entre as atrações, o público pôde acompanhar apresentações musicais, rodas de dança,
-        exposições de artesanato e barracas com comidas típicas. A proposta foi aproximar
-        moradores e visitantes da identidade cultural da região.
-      </p>
-
-      <p>
-        Para os organizadores, eventos como esse ajudam a preservar a memória local,
-        movimentam a economia criativa e incentivam novas gerações a conhecerem melhor
-        a história do Nordeste.
+        Um incêndio atingiu um casarão abandonado, nesta segunda-feira (22), no bairro dos Barris, no Centro de Salvador. Não houve registro de feridos.
+        O imóvel fica na ladeira dos Barris, nas proximidades de um supermercado e da Biblioteca Central. Testemunhas contaram à TV Bahia que uma grande quantidade de fumaça se formou no local.
+        Segundo o Corpo de Bombeiros Militar da Bahia (CBM-BA), 15 agentes atuaram na ocorrência, com a ajuda de três viaturas. Um vídeo feito no local mostra que uma casa vizinha foi usada para jogar água do alto durante o combate ao incêndio.
       </p>
     `
   },
   {
     id: 2,
-    title: "Projeto de tecnologia aproxima jovens da inovação no agreste",
+    title: "Feriado de São João: saiba o que abre e o que fecha no Grande Recife",
     state: "PE",
-    category: "Tecnologia",
-    time: "Há 28 min",
+    category: "Diário",
+    time: "Há 9 hrs",
     author: "Redação Nordestino",
     imageLabel: "PE",
-    summary: "Oficinas e mentorias estimulam soluções para problemas locais.",
+    summary: "Governo de Pernambuco e prefeitura do Recife decretaram ponto facultativo",
     content: `
       <p>
-        Um projeto educacional no agreste pernambucano tem incentivado jovens a desenvolverem
-        soluções tecnológicas para desafios da própria comunidade. A iniciativa oferece oficinas,
-        mentorias e atividades práticas.
+        No Grande Recife, o feriado de São João muda os horários de funcionamento do comércio, dos shoppings e de alguns serviços públicos. O governo de Pernambuco e a prefeitura do Recife decretaram ponto facultativo na segunda-feira (22), antevéspera do feriado celebrado na quarta-feira (24), respectivamente.
+        Além disso, tanto o estado quanto a capital transferiram o ponto facultativo do feriado de Corpus Christi, comemorado no dia 4 de junho, para a véspera do São João, na terça-feira (23).
       </p>
 
-      <p>
-        Os participantes aprendem conceitos de programação, design digital, comunicação e
-        empreendedorismo. A ideia é mostrar que a tecnologia também pode nascer de problemas
-        simples do cotidiano.
-      </p>
-
-      <p>
-        Além de ampliar o acesso à inovação, o projeto contribui para a formação profissional
-        dos estudantes e fortalece o protagonismo juvenil na região.
-      </p>
     `
   },
   {
     id: 3,
-    title: "Praias recebem ações de preservação ambiental durante alta temporada",
+    title: "Pamonha na palha do milho: aprenda receita tradicional da festa de São João",
     state: "CE",
-    category: "Meio ambiente",
-    time: "Há 43 min",
+    category: "Culinária",
+    time: "Ontem",
     author: "Redação Nordestino",
     imageLabel: "CE",
-    summary: "Iniciativa reforça cuidados com turismo sustentável.",
+    summary: "Uma receita simples, com ingredientes da roça e muito carinho no preparo, ensinada pela 'Dona Ana' no programa Nordeste Rural.",
     content: `
       <p>
-        Durante a alta temporada, praias do litoral nordestino receberam ações de conscientização
-        ambiental voltadas para turistas, comerciantes e moradores. A iniciativa destacou a
-        importância do descarte correto de resíduos.
+        Toda festa de São João tem que ter comidas típicas. O programa Nordeste Rural deste domingo (21) trouxe uma das receitas mais tradicionais dessa época: a pamonha na palha do milho.
+        Uma receita simples, com ingredientes da roça e muito carinho no preparo, vindo do Crato, no Cariri cearense.
+        Quem ensinou a escolher o milho e a preparar a receita foi a 'Dona Ana', mãe de Biana Alencar, apresentadora do Nordeste Rural.
       </p>
 
       <p>
-        Equipes distribuíram materiais informativos, orientaram visitantes e promoveram mutirões
-        de limpeza. O objetivo é reduzir impactos ambientais e incentivar práticas de turismo
-        sustentável.
+      Para essa receita, você vai precisar de:
+      6 espigas de milho,
+      1 pitada de sal,
+      50 g de queijo coalho ralado,
+      150 g de queijo coalho em tiras,
+      1/2 xícara de açúcar,
+      2 colheres de margarina,
+      Água, aos poucos, para bater o milho,
+      Palhas do milho, para montar as pamonhas,
+      Tirinhas da própria palha para amarrar.
+
+      </p>
+      
+      <p>
+      1- Modo de preparo:
+      Preparar as palhas:
+
+      Retire as palhas das espigas com cuidado,
+      Separe 2 a 3 palhas por espiga, aproximadamente,
+      Reserve também algumas tirinhas da palha para amarrar depois.
       </p>
 
       <p>
-        A preservação das praias é essencial para proteger a biodiversidade, manter a beleza
-        natural da região e garantir que o turismo continue gerando renda de forma responsável.
+      2- Retirar os grãos e
+      depois de tirar a palha, corte os grãos do milho com uma faca.
       </p>
+
+      <p>
+      3- Bater a massa e
+      colocar os grãos no liquidificador e 
+      vá acrescentando água aos poucos, só o suficiente para ajudar a bater.
+      </p>
+
+      <p>
+      4- Misturar os temperos
+
+      em um recipiente, coloque:
+      a margarina
+      o açúcar
+      o sal
+      o queijo coalho ralado
+      depois
+      despeje a mistura de milho batida no liquidificador
+      mexa bem
+      a massa deve ficar bem cremosa.
+      </p>
+
+      <p>
+      5- Montar as pamonhas,
+
+      pegue uma palha e faça um fechamento em uma das pontas,
+      amarre com uma tirinha da palha, fazendo um nozinho firme,
+      coloque a massa dentro da palha. Se tiver, pode usar um funil para facilitar,
+      acrescente uma tira de queijo coalho no recheio,
+      dobre e feche a pamonha com cuidado,
+      amarre bem com outra tirinha de palha.
+      </p>
+
+      <p>
+
+      6. Cozinhar
+
+      coloque as pamonhas em água fervendo e
+      deixe cozinhar por cerca de 30 minutos.
+      </p>
+      
+      <p>
+      Resultado
+      A pamonha fica:
+
+      macia
+      cremosa
+      com o doce equilibrado
+      e com o queijo coalho derretendo por dentro
+      </P>
+
     `
   },
   {
     id: 4,
-    title: "Feira de artesanato destaca renda de bilro, cerâmica e literatura de cordel",
+    title: "Mãe, padrasto e tio são presos em flagrante após criança de 8 anos morrer com tiro em casa em Natal",
     state: "RN",
-    category: "Economia criativa",
+    category: "Criminal",
     time: "Há 1 h",
     author: "Redação Nordestino",
     imageLabel: "RN",
-    summary: "Expositores mostram a força da produção artesanal regional.",
+    summary: "Mãe, padrasto e tio são presos em flagrante",
     content: `
       <p>
-        Uma feira de artesanato reuniu produtores locais para apresentar trabalhos em renda de
-        bilro, cerâmica, madeira, tecido e literatura de cordel. O evento destacou a importância
-        da economia criativa no Nordeste.
+      A mãe, o padrasto e um tio da criança de 8 anos que morreu com um tiro dentro de casa no sábado (20) em Natal foram presos em flagrante, segundo a Polícia Civil. O caso aconteceu no bairro Guarapes, na Zona Oeste da cidade.
+      Segundo a família, o disparo teria sido acidental e feito por um irmão de 11 anos enquanto não havia ninguém em casa. A Polícia Civil investiga o caso. O padrasto admitiu que comprou a arma - que é de calibre restrito - de forma irregular em Mossoró, informou a Polícia Militar.
       </p>
 
       <p>
-        Além da venda de produtos, a programação contou com demonstrações ao vivo, conversas com
-        artesãos e apresentações culturais. O público pôde conhecer de perto técnicas passadas
-        de geração em geração.
+      A vítima do disparo foi Mikellyson Valter Tavares. Ele chegou a ser socorrido e levado para a Unidade de Pronto-Atendimento (UPA) do conjunto Cidade Satélite, mas, segundo os familiares, estava com sinais vitais muito fracos. A equipe médica tentou reanimá-lo, mas a criança não resistiu aos ferimentos.
+      A Polícia Civil informou que instaurou procedimento para apurar as circunstâncias da morte da criança. Familiares foram ouvidos e, de acordo com a polícia, as investigações iniciais apontaram a existência de um armamento irregular na residência.
+      A mãe e o padrasto da criança foram presos em flagrante pelos crimes de posse irregular de arma de fogo e omissão de cautela, previstos no Estatuto do Desarmamento.
       </p>
 
       <p>
-        O artesanato representa memória, identidade e fonte de renda para muitas famílias,
-        fortalecendo a cultura local e valorizando o trabalho manual.
+      O tio da criança também foi preso em flagrante, segundo a polícia, pelos crimes de porte ilegal de arma de fogo e acessórios de arma. Segundo a polícia, ele também foi autuado em flagrante por fraude processual qualificada, "em razão de indícios de alteração da cena do fato".
+      Um boletim de ocorrência do caso foi registrado como morte suspeita.
+      O caso foi repassado para investigação da Divisão de Homicídios e de Proteção à Pessoa (DHPP), que visa a esclarecer as circunstâncias do ocorrido e identificar eventuais responsabilidades.
+      A arma não havia sido encontrada pela PM na casa - apenas dois carregadores.
       </p>
     `
   },
   {
     id: 5,
-    title: "Escolas desenvolvem atividades sobre memória, sotaque e identidade local",
+    title: "São João na Paraíba: confira programação das festas nas principais cidades",
     state: "PB",
-    category: "Educação",
+    category: "Cultura",
     time: "Há 2 h",
     author: "Redação Nordestino",
     imageLabel: "PB",
-    summary: "Projeto incentiva estudantes a pesquisarem a história da comunidade.",
+    summary: "Nesta segunda (22) e terça (23), as festas concentram algumas das principais atrações.",
     content: `
       <p>
-        Escolas da região desenvolveram atividades sobre memória, sotaque, costumes e identidade
-        local. Os estudantes foram incentivados a entrevistar familiares, pesquisar histórias
-        antigas e registrar expressões populares.
+      As festas públicas de São João seguem em andamento na Paraíba e concentram,
+      nesta segunda-feira (22) e terça-feira (23),
+      parte da programação mais aguardada do calendário junino.
+      Os eventos acontecem João Pessoa, Bananeiras, Campina Grande,
+      além de outras regiões do estado e reúnem shows musicais e apresentações culturais com acesso gratuito ao público.
       </p>
-
-      <p>
-        A proposta aproximou os alunos da cultura da própria comunidade, mostrando que a história
-        regional também está presente nas falas, nas festas, nas receitas e nas lembranças de cada
-        família.
-      </p>
-
-      <p>
-        Segundo os educadores, trabalhar a identidade cultural em sala de aula ajuda os jovens a
-        reconhecerem o valor do lugar onde vivem.
-      </p>
-    `
+      `
   },
   {
     id: 6,
-    title: "Roteiro turístico valoriza culinária, praias e manifestações populares",
+    title: "Cuscuzeira gigante distribui cuscuz de graça no São João Massayó",
     state: "AL",
-    category: "Turismo",
+    category: "Culinária",
     time: "Há 3 h",
     author: "Redação Nordestino",
     imageLabel: "AL",
-    summary: "A proposta integra cultura, lazer e geração de renda.",
+    summary: "Estrutura de 4,2 metros recebe participantes de corrida inédita no bairro do Jaraguá.",
     content: `
       <p>
-        Um novo roteiro turístico foi criado para valorizar a culinária, as praias, os espaços
-        históricos e as manifestações populares da região. A proposta busca oferecer uma experiência
-        mais completa aos visitantes.
+      Uma cuscuzeira de 4,2 metros prepara e distribui cuscuz de graça para o público no dia 28 de junho, durante a programação do São João Massayó 2026. A ação ocorre no bairro do Jaraguá, logo após a 1ª edição da "Carrêra da Boba – Da Fogueira ao Cuscuz".
+      A corrida tem concentração marcada para as 5h, em frente à fogueira cenográfica da Praça Gogó da Ema, na Ponta Verde. A largada é às 6h30.
+      O percurso segue até o estacionamento da Praça Marcílio Dias, onde a estrutura gigante recebe os participantes. A iguaria será servida aos corredores e ao público logo após a chegada.
       </p>
 
-      <p>
-        O percurso inclui pontos de interesse cultural, restaurantes com pratos típicos, feiras de
-        artesanato e apresentações de artistas locais. A iniciativa também pretende fortalecer
-        pequenos negócios.
-      </p>
-
-      <p>
-        O turismo regional é uma forma de movimentar a economia e divulgar a diversidade cultural
-        do Nordeste para outros públicos.
-      </p>
     `
   },
   {
