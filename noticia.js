@@ -196,67 +196,47 @@ const newsDetails = [
   },
   {
     id: 7,
-    title: "Comunidade recebe programação especial de São João fora de época",
+    title: "Plataforma digital do NAT oferta mais de 1.400 vagas de emprego para diversas áreas",
     state: "SE",
-    category: "Festas populares",
+    category: "Oportunidades",
     time: "Há 4 h",
     author: "Redação Nordestino",
     imageLabel: "SE",
-    summary: "Quadrilhas e comidas típicas movimentam o comércio local.",
+    summary: "Há vagas tanto para a capital quanto para o interior.",
     content: `
       <p>
-        A comunidade recebeu uma programação especial de São João fora de época, com quadrilhas,
-        comidas típicas, decoração com bandeirinhas e apresentações musicais.
+      A Secretaria de Estado do Trabalho, Emprego e Empreendedorismo (Seteem) está ofertando mais de 1.400 vagas de emprego na plataforma digital do Núcleo de Apoio ao Trabalho (NAT).
+      Para se cadastrar no site ‘GO Sergipe – Geração de Oportunidade’ é necessário ter senha do portal gov.br do governo federal, por meio do aplicativo para celular.
       </p>
 
-      <p>
-        O evento movimentou o comércio local e reuniu famílias em uma celebração marcada por
-        forró, brincadeiras e pratos tradicionais, como canjica, pamonha, bolo de milho e milho
-        assado.
-      </p>
-
-      <p>
-        As festas juninas são uma das expressões culturais mais fortes do Nordeste e continuam
-        sendo importantes para a preservação das tradições populares.
-      </p>
     `
   },
   {
     id: 8,
-    title: "Centro cultural abre exposição sobre ritmos e narrativas nordestinas",
+    title: "Bezerro nasce com duas cabeças no interior do Maranhão; mãe sobreviveu",
     state: "MA",
-    category: "Arte",
+    category: "Anomalia?",
     time: "Há 5 h",
     author: "Redação Nordestino",
     imageLabel: "MA",
     summary: "A mostra reúne fotografias, objetos e registros audiovisuais.",
     content: `
       <p>
-        Um centro cultural abriu uma exposição dedicada aos ritmos e narrativas nordestinas.
-        A mostra reúne fotografias, objetos, instrumentos musicais, registros audiovisuais e
-        relatos de artistas populares.
+      Um caso raro chamou a atenção de moradores do município de Apicum-açu,
+      no litoral ocidental do Maranhão. No sítio Recanto dos Monteiros, uma vaca deu à luz um bezerro com duas cabeças e apenas um corpo. Devido à complexidade e à anomalia genética, o filhote não resistiu, mas a mãe sobreviveu após receber cuidados médicos.
       </p>
 
-      <p>
-        O objetivo é apresentar a diversidade cultural da região, destacando expressões como
-        forró, bumba meu boi, cordel, maracatu, frevo e outras manifestações tradicionais.
-      </p>
-
-      <p>
-        A exposição reforça a importância de preservar a cultura popular e reconhecer sua presença
-        na formação da identidade brasileira.
-      </p>
     `
   },
   {
     id: 9,
-    title: "Produtores locais apostam em economia sustentável no semiárido",
+    title: "Criança de 3 anos é atingida com golpe de faca no pescoço durante briga dos pais",
     state: "PI",
-    category: "Economia",
+    category: "Violência",
     time: "Há 6 h",
     author: "Redação Nordestino",
     imageLabel: "PI",
-    summary: "Iniciativas unem conhecimento tradicional e novas tecnologias.",
+    summary: "Segundo a Polícia Militar, a menina foi atendida, levou quatro pontos, recebeu alta e está fora de perigo.",
     content: `
       <p>
         Produtores do semiárido têm investido em práticas sustentáveis para melhorar a produção

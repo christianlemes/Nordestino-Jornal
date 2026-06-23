@@ -111,64 +111,53 @@ const news = [
   },
   {
     id: 7,
-    title: "Comunidade recebe programação especial de São João fora de época",
+    title: "Plataforma digital do NAT oferta mais de 1.400 vagas de emprego para diversas áreas",
     state: "SE",
-    category: "Festas populares",
-    text: "Quadrilhas e comidas típicas movimentam o comércio local.",
+    category: "Oportunidades",
+    text: "Há vagas tanto para a capital quanto para o interior.",
     time: "Há 4 h",
     author: "Redação Nordestino",
-    summary: "Celebração reúne quadrilha, comidas típicas, forró e decoração junina.",
+    summary: "Há vagas tanto para a capital quanto para o interior.",
     content: `
       <p>
-        A comunidade recebeu uma programação especial de São João fora de época, com quadrilhas,
-        comidas típicas, decoração com bandeirinhas e apresentações musicais.
+      A Secretaria de Estado do Trabalho, Emprego e Empreendedorismo (Seteem) está ofertando mais de 1.400 vagas de emprego na plataforma digital do Núcleo de Apoio ao Trabalho (NAT).
+      Para se cadastrar no site ‘GO Sergipe – Geração de Oportunidade’ é necessário ter senha do portal gov.br do governo federal, por meio do aplicativo para celular.
       </p>
 
     `
   },
   {
     id: 8,
-    title: "Centro cultural abre exposição sobre ritmos e narrativas nordestinas",
+    title: "Bezerro nasce com duas cabeças no interior do Maranhão; mãe sobreviveu",
     state: "MA",
-    category: "Arte",
-    text: "A mostra reúne fotografias, objetos e registros audiovisuais.",
+    category: "Anomalia?",
+    text: "Anomalia congênita surpreendeu moradores de Apicum-açu. Animal não resistiu ao parto, mas vaca foi salva após receber cuidados médicos.",
     time: "Há 5 h",
     author: "Redação Nordestino",
-    summary: "Exposição apresenta ritmos, narrativas e manifestações culturais nordestinas.",
+    summary: "Anomalia congênita surpreendeu moradores de Apicum-açu.",
     content: `
       <p>
-        Um centro cultural abriu uma exposição dedicada aos ritmos e narrativas nordestinas.
-        A mostra reúne fotografias, objetos, instrumentos musicais, registros audiovisuais e
-        relatos de artistas populares.
+      Um caso raro chamou a atenção de moradores do município de Apicum-açu,
+      no litoral ocidental do Maranhão. No sítio Recanto dos Monteiros, uma vaca deu à luz um bezerro com duas cabeças e apenas um corpo. Devido à complexidade e à anomalia genética, o filhote não resistiu, mas a mãe sobreviveu após receber cuidados médicos.
       </p>
 
     `
   },
   {
     id: 9,
-    title: "Produtores locais apostam em economia sustentável no semiárido",
+    title: "Criança de 3 anos é atingida com golpe de faca no pescoço durante briga dos pais",
     state: "PI",
-    category: "Economia",
-    text: "Iniciativas unem conhecimento tradicional e novas tecnologias.",
+    category: "Violência",
+    text: "Segundo a Polícia Militar, a menina foi atendida, levou quatro pontos, recebeu alta e está fora de perigo.",
     time: "Há 6 h",
     author: "Redação Nordestino",
-    summary: "Produtores do semiárido investem em práticas sustentáveis e adaptação ao clima.",
+    summary: "Segundo a Polícia Militar, a menina foi atendida, levou quatro pontos, recebeu alta e está fora de perigo.",
     content: `
       <p>
-        Produtores do semiárido têm investido em práticas sustentáveis para melhorar a produção
-        e enfrentar os desafios do clima. As iniciativas combinam conhecimento tradicional,
-        organização comunitária e novas tecnologias.
+      Uma criança de três anos foi atingida com um golpe de faca no pescoço durante uma briga entre os pais, na localidade Cachoeira do Brejo, em Riacho Frio, na sexta-feira (20).
+      Segundo a Polícia Militar, a discussão do casal começou por ciúmes durante um aniversário. Durante o desentendimento, a mulher teria sacado uma faca e atingido a criança acidentalmente.
       </p>
 
-      <p>
-        Entre as ações estão o uso consciente da água, o cultivo adaptado ao clima seco,
-        a criação de pequenos sistemas de irrigação e o fortalecimento da agricultura familiar.
-      </p>
-
-      <p>
-        Essas práticas mostram a capacidade de adaptação das comunidades e reforçam a importância
-        da sustentabilidade para o futuro da região.
-      </p>
     `
   }
 ];
